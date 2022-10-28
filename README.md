@@ -57,3 +57,8 @@ on:
     paths-ignore:
       - '.github/workflows/*'
 ```
+### Skip workflows
+
+Un commit care ar genera un workflow, poate fi setat ca sa nu genereze workflow-ul, daca in comentariu se adauga "[skip ci]" etc.
+
+[Vezi](https://docs.github.com/en/actions/managing-workflow-runs/skipping-workflow-runs)
